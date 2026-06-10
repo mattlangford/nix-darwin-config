@@ -12,6 +12,7 @@
     fd
     bazel
     cowsay
+    ncdu
   ];
 
   environment.etc."gitconfig".text = ''
