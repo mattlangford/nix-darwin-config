@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -6,17 +6,13 @@
     vim
     wget
     curl
-    htop
+    btop
     jq
     silver-searcher
     fd
-    bazel
     cowsay
     ncdu
+    tailscale
+    pi-coding-agent
   ];
-
-  environment.etc."gitconfig".text = ''
-    [core]
-      editor = vim
-  '';
 }

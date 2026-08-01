@@ -8,10 +8,14 @@
       requests
       beautifulsoup4
       numpy
+      scipy
       pandas
       plotly
       streamlit
       watchdog
+      markdown
+      latex2mathml
+      pymdown-extensions
     ]))
   ];
 }
