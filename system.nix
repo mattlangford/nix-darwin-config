@@ -19,9 +19,15 @@
   services.tailscale.enable = true;
 
   system.defaults.WindowManager.EnableStandardClickToShowDesktop = false;
-  
+
   environment.etc."gitconfig".text = ''
     [core]
       editor = vim
   '';
+
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
+
 }

@@ -16,6 +16,7 @@
       markdown
       latex2mathml
       pymdown-extensions
+      pdfplumber
     ]))
   ];
 }
