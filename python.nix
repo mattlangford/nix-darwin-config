@@ -17,6 +17,7 @@
       latex2mathml
       pymdown-extensions
       pdfplumber
+      openpyxl
     ]))
   ];
 }

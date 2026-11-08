@@ -15,6 +15,6 @@
     tailscale
     bazel_8
     pi-coding-agent
-    inputs.pi-sandbox.packages.${pkgs.system}.default
+    inputs.pi-sandbox.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 }
